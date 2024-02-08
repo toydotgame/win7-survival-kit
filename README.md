@@ -66,7 +66,7 @@ To patch the launcher to work with Microsoft accounts rather than Mojang/Minecra
 PS: If you are installing Fabric also, make sure to unselect "Create profile" in the installer. It doesn't function right with the legacy launcher and you will be required to create a profile manually.
 
 ### Steam
-Steam ended support for Windows 7 on January 1<sup>st</sup>, 2024. However, you can use an older build and force updates to stop to continue using Steam for a bit longer.
+(Credit to [Elvis Mikkelsen's video on YouTube](https://www.youtube.com/watch?v=g8eSrk4N6Ls)) Steam ended support for Windows 7 on January 1<sup>st</sup>, 2024. However, you can use an older build and force updates to stop to continue using Steam for a bit longer.
 1. Start by installing Steam from the internet (or from `Extras\`).
 2. Extract the Steam ZIP in `Extras\` and copy the `Steam\` folder to overwrite the Steam folder in Program Files.
 3. Add/overwrite the following to `C:\Program Files (x86)\Steam\steam.cfg`:
