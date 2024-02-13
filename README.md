@@ -77,6 +77,10 @@ PS: If you are installing Fabric also, make sure to unselect "Create profile" in
 
 If you did it correctly, Steam should throw an error when you try to update from within the client.
 
+### Discord
+With the included Vencord installer, all you have to do is install Discord first then install Vencord.
+If you want better performance, you might want to try out [Vesktop](https://vencord.dev/download/vesktop/amd64/windows) (doesn't require Discord to be installed). However, you'll have to overwrite the included Electron executables with win32's fork.
+
 <hr>
 
 ## 3. Untested Extras
