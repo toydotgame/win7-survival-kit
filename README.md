@@ -23,7 +23,7 @@ After that, you'll want to run [BypassESU](https://www.youtube.com/watch?v=gpBTB
 ### Disabling the Windows Update Service
 As it doesn't serve much use anymore, and can sometimes use 100% of your available RAM on lower end machines, it's worthwhile to disable the Windows Update service.
 1. Run, `services.msc`
-2. Look for the _Windows Update_ service. Set its startup type to _Disabled_ and press the _Stop_ button to stop the task.
+2. Stop and disable the _Windows Update_ service.
 
 ## 2. Programs
 In the `Extras\` folder, there are a few program installer executables that I've collected.
@@ -70,7 +70,7 @@ PS: If you are installing Fabric also, make sure to unselect "Create profile" in
 1. Start by installing Steam from the internet (or from `Extras\`).
 2. Extract the Steam ZIP in `Extras\` and copy the `Steam\` folder to overwrite the Steam folder in Program Files.
 3. Add/overwrite the following to `C:\Program Files (x86)\Steam\steam.cfg`:
-	```
+	```ini
 	BootStrapperInhibitAll=enable
 	BootStrapperForceSelfUpdate=disable
 	```
@@ -81,7 +81,11 @@ If you did it correctly, Steam should throw an error when you try to update from
 
 ## 3. Untested Extras
 ### Extended Kernel
-There isn't really a proper extended kernel mod for Windows 7 like Vista had, but [VxKex](https://github.com/vxiiduu/VxKex) claims Windows 8+ compatibility running on Windows 7, which is definitely worth the install.
+Windows 7's kernel modding is much less developed than Vista's was, however there are a few options still:
+* [VxKex](https://github.com/vxiiduu/VxKex) claims Windows 8+ compatibility running on Windows 7, which is definitely worth the install.
+* The WIP [Windows 7 Kernel Extension Pack](https://github.com/kernel-extenders/nt61). For built binaries to install, check [their Discord](https://discord.gg/zEyPwsmPRF) for updates.
+
+Another thing that's a WIP is [win32's fork of Electron](https://github.com/win32ss/supermium-electron), which one day will allow apps like Discord and Obsidian to run on Windows 7 [after Electron 23 dropped support](https://www.electronjs.org/blog/windows-7-to-8-1-deprecation-notice).
 
 ### Modern Hardware Support/USB 3
 If installing on a modern system, USB drivers are messed up with modern CPUs and chipsets. [This Reddit thread](https://www.reddit.com/r/windows7/comments/tlndaf/can_you_install_windows_7_on_a_b550f/) _might_ be a good launching pad to start reading from, but I myself haven't tested any part of it yet.
