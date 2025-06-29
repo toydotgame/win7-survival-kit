@@ -54,7 +54,7 @@ The following applications have specifically been picked for being the last avai
 ### Minecraft Launcher
 For legal/EULA reasons (Microsoft hates redistribution of even non-paid software grr), I cannot distribute a copy of the classic launcher. However I _can_ say that if you go to [https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar](http://web.archive.org/web/20190929213435/https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar), you might find it.
 
-To patch the launcher to work with Microsoft accounts rather than Mojang/Minecraft Premium accounts only, you can use a program called [MSA4Legacy written by NepNep21](https://github.com/NepNep21/MSA4Legacy).
+To patch the launcher to work with Microsoft accounts rather than Mojang/Minecraft Premium accounts only, you can use a program called [MSA4Legacy written by NepNep21](https://git.bottomservices.club/nep/MSA4Legacy).
 
 #### Procedure: Requires the included JRE to be installed!
 1. Move your downloaded `launcher.jar` to this directory.
